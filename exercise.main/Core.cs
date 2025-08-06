@@ -21,8 +21,6 @@ namespace exercise.main
             result = new Tuple<string,string>(string.Empty, string.Empty);
             int highestWinnerPairValue = 0;
 
-            // your code here...
-
             foreach (var pair in hands)
             {
                 var score = GetValueOfCard(pair.Item1) + GetValueOfCard(pair.Item2);
